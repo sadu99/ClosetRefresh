@@ -1,0 +1,79 @@
+
+
+<div class="container">
+
+<div class="page-header">
+    <h1><Strong>Closet Refresh</h1></Strong>
+    <h2><Strong>Add New Clothing Article +</h2></Strong>
+</div>
+
+<!-- Registration form - START -->
+<div class="container" id="new-form">
+    <div class="row">
+            <div class="col-md-12">
+            <form role="form">
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span> Required Field</strong></div>
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="title" id="title" placeholder="Title" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div> 
+                </div>
+                <div class="form-group">
+                    <label for="ApparelType">Apparel Type</label>
+                <select class="form-control" name="ApparelType" id="ApparelType" required>
+                    <option>Shirts</option>
+                    <option>Sweaters</option>
+                    <option>Jeans</option>  
+                    <option>Skirts</option>
+                    <option>Coats</option>
+                    <option>Jackets</option>
+                    <option>Formalware</option>   
+                </select> <br>  
+                 <div class="form-group">
+                    <label for="Size">Size</label>
+                <select class="form-control" name="Size" id="Size" required>
+                    <option>XS</option>
+                    <option>S</option>
+                    <option>M</option>  
+                    <option>L</option>
+                    <option>XL</option>
+                    <option>XXL</option>        
+                </select> <br>
+                <div class="form-group">
+                    <label for="Condition">Condition</label>
+                <select class="form-control" name="Condition" id="Condition" required>
+                    <option>New</option>
+                    <option>Like new</option>
+                    <option>Good</option>  
+                    <option>Old</option>      
+                </select> <br>       
+                <div class="form-group">
+                    <label for="Price">Price</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="Price" name="Price" placeholder="$$$" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="InputMessage">Description</label>
+                    <div class="input-group">
+                        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                </div> 
+                <div class="fileinput fileinput-new" data-provides="fileinput">
+                      <span class="btn btn-default btn-file"><span class="fileinput-new">Add Picture</span><span class="fileinput-exists">Change</span><input id="imageURL" type="file" name="..."></span>
+                      <span class="fileinput-filename"></span>
+                      <a href="#" class="close fileinput-exists" data-dismiss="fileinput" style="float: none">&times;</a>
+                </div>
+        </form>
+        <br>
+    </div>
+</div>
+<!-- Registration form - END -->
+
+</div>
+
